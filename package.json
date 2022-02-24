@@ -1,0 +1,22 @@
+{
+  "name": "my-lwr-proj",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rf __lwr_cache__",
+    "dev": "node scripts/start-server.mjs",
+    "start": "MODE=prod node scripts/start-server.mjs",
+    "start:amd": "MODE=compat node scripts/start-server.mjs"
+  },
+  "dependencies": {
+    "@lwc/synthetic-shadow": "^2.10.0",
+    "lightning-base-components": "^1.14.4-alpha",
+    "lwc": "^2.5.1",
+    "lwr": "^0.4.4"
+  },
+  "engines": {
+    "node": ">=14.15.4 <17"
+  }
+}
