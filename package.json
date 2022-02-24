@@ -8,7 +8,7 @@
     "clean": "rm -rf __lwr_cache__",
     "dev": "node scripts/start-server.mjs",
     "build": "cp -r node_modules/@salesforce-ux/design-system/assets src",
-    "start": "MODE=prod node scripts/start-server.mjs",
+    "start": "WARMUP=true MODE=prod node scripts/start-server.mjs",
     "start:amd": "MODE=compat node scripts/start-server.mjs"
   },
   "dependencies": {
