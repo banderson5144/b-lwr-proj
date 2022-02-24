@@ -1,7 +1,7 @@
 {
     "lwc": { "modules": [
-        { "dir": "$rootDir/src/modules" },
-        { "npm": "lightning-base-components" }
+            { "dir": "$rootDir/src/modules" },
+            { "npm": "lightning-base-components" }
         ]
     },
     "bundleConfig": { "exclude": ["lwc","@lwc/synthetic-shadow"] },
