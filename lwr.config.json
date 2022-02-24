@@ -4,7 +4,7 @@
             { "npm": "lightning-base-components" }
         ]
     },
-    "bundleConfig": { "exclude": ["lwc","@lwc/synthetic-shadow"] },
+    "bundleConfig": { "exclude": ["lwc"] },
     "routes": [
         {
             "id": "Home",
