@@ -14,12 +14,6 @@
             "bootstrap": {
                 "syntheticShadow": true
             }
-        },
-        {
-            "id": "About",
-            "path": "/about",
-            "contentTemplate": "$contentDir/about.md",
-            "layoutTemplate": "$layoutsDir/main_layout.njk"
         }
     ]
 }
