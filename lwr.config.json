@@ -4,13 +4,16 @@
             { "npm": "lightning-base-components" }
         ]
     },
-    "bundleConfig": { "exclude": ["lwc","@lwc/synthetic-shadow"] },
+    "bundleConfig": { "exclude": ["lwc"] },
     "routes": [
         {
             "id": "Home",
             "path": "/",
             "rootComponent": "my/app",
-            "layoutTemplate": "$layoutsDir/main.html"
+            "layoutTemplate": "$layoutsDir/main.html",
+            "bootstrap": {
+                "syntheticShadow": true
+            }
         },
         {
             "id": "About",
