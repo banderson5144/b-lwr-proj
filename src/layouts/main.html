@@ -5,7 +5,14 @@
         <link rel="stylesheet" href="$assetsDir/styles/salesforce-lightning-design-system.css" />
      </head>
      <body>
-         <!-- triple braces prevents HTML escaping -->
-         {{{body}}} {{{lwr_resources}}}
-     </body>
+         Here outside
+        <div class="slds-p-around_large">
+            Here inside Top
+            {{{body}}}
+            Here inside Bottom
+        </div>
+        Here Below
+        {{{lwr_resources}}}
+        
+    </body>
  </html>
